@@ -24,9 +24,9 @@ DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=C:\Users\hwkru\Downloads
+OutputDir=D:\a\Easy-To-King.com\Easy-To-King.com\Output\
 OutputBaseFilename=Easy-To-King.exe
-SetupIconFile=D:\Easy-To-King.com\Easy-To-King.com\Setup.ico
+SetupIconFile=D:\a\Easy-To-King.com\Easy-To-King.com\Setup.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -62,26 +62,26 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\locales\*"; DestDir: "{app}\locales"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\resources\*"; DestDir: "{app}\resources"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\swiftshader\*"; DestDir: "{app}\swiftshader"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\chrome_100_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\\src\chrome_200_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\d3dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\ffmpeg.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\icudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\libGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\LICENSES.chromium.html"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\resources.pak"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\snapshot_blob.bin"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\v8_context_snapshot.bin"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\version"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\vk_swiftshader.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\vk_swiftshader_icd.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Easy-To-King.com\Easy-To-King.com\src\vulkan-1.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\locales\*"; DestDir: "{app}\locales"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\resources\*"; DestDir: "{app}\resources"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\swiftshader\*"; DestDir: "{app}\swiftshader"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\chrome_100_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\\src\chrome_200_percent.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\d3dcompiler_47.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\ffmpeg.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\icudtl.dat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\libEGL.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\libGLESv2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\LICENSE"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\LICENSES.chromium.html"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\resources.pak"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\snapshot_blob.bin"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\v8_context_snapshot.bin"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\version"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\vk_swiftshader.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\vk_swiftshader_icd.json"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\a\Easy-To-King.com\Easy-To-King.com\src\vulkan-1.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
